@@ -1,0 +1,18 @@
+# Entorno virtual de Python
+venv/
+__pycache__/
+*.pyc
+
+# Datos y logs generados por Mosquitto (Docker)
+mosquitto/data/
+mosquitto/log/
+
+# Base SQLite generada por el suscriptor (Parte 1)
+*.db
+
+# Compilados de Maven
+target/
+
+# Configuracion de IDEs
+.vscode/
+.idea/
